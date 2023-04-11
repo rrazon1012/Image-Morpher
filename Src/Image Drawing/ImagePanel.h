@@ -1,11 +1,11 @@
 #ifndef _IMAGE_PANEL_H
 #pragma once
 #include <wx/wx.h>
-#include "Line.h"
+#include "../Helper/Line.h"
 #include <vector>
 #include <memory>
-#include "DrawEvent.h"
-#include "Math.h"
+#include "../Event/DrawEvent.h"
+#include "../Helper/Math.h"
 
 
 enum PaneNUM {

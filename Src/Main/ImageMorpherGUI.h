@@ -1,7 +1,7 @@
 #pragma once
 #include <wx/wx.h>
-#include "ImagePanel.h"
-#include "MorpherFrame.h"
+#include "../Image Drawing/ImagePanel.h"
+#include "../Morpher/MorpherFrame.h"
 #include <iostream>
 #include <fstream>
 

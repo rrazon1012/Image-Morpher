@@ -1,9 +1,9 @@
 #pragma once
 #include <wx/wx.h>
 #include <wx/numdlg.h>
-#include "Line.h"
+#include "../Helper/Line.h"
 #include <vector>
-#include "Math.h"
+#include "../Helper/Math.h"
 #include <algorithm>
 #include <iostream>
 

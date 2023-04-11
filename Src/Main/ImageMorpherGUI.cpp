@@ -1,5 +1,5 @@
 #include "ImageMorpherGUI.h"
-#include "ImagePanel.h"
+#include "../Image Drawing/ImagePanel.h"
 #include <string>
 
 ImageMorpherFrame::ImageMorpherFrame()
@@ -33,8 +33,8 @@ void ImageMorpherFrame::InitializeGUI()
     wxBoxSizer* wrapperSizer = new wxBoxSizer(wxVERTICAL);
 
     //two image panels that will hold the two pictures to be morphed
-    leftImage = new ImagePanel(wrapperPanel, wxT("Lynn-Posluns-640x480.jpg"), wxBITMAP_TYPE_JPEG, LeftPane);
-    rightImage = new ImagePanel(wrapperPanel, wxT("lisa-hischnik-ryzhaya.jpg"), wxBITMAP_TYPE_JPEG, RightPane);
+    leftImage = new ImagePanel(wrapperPanel, wxT("src/Images/Lynn-Posluns-640x480.jpg"), wxBITMAP_TYPE_JPEG, LeftPane);
+    rightImage = new ImagePanel(wrapperPanel, wxT("src/Images/lisa-hischnik-ryzhaya.jpg"), wxBITMAP_TYPE_JPEG, RightPane);
 
     wxBoxSizer* imageSizer = new wxBoxSizer(wxHORIZONTAL);
     imageSizer->Add(leftImage, 1, wxALL|wxEXPAND,2);

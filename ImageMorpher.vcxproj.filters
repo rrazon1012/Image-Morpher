@@ -15,45 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ImageMorpherGUI.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ImagePanel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Math.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MorpherFrame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ImageMorpherGUI.h">
+    <ClInclude Include="Src\Event\DrawEvent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ImagePanel.h">
+    <ClInclude Include="Src\Helper\Line.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Line.h">
+    <ClInclude Include="Src\Helper\Math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DrawEvent.h">
+    <ClInclude Include="Src\Image Drawing\ImagePanel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Math.h">
+    <ClInclude Include="Src\Main\ImageMorpherGUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MorpherFrame.h">
+    <ClInclude Include="Src\Morpher\MorpherFrame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Image_created_with_a_mobile_phone.png">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <ClCompile Include="Src\Helper\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Image Drawing\ImagePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main\ImageMorpherGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Morpher\MorpherFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

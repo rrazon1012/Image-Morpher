@@ -1,7 +1,7 @@
 #ifndef _DRAW_EVENT_H_
 #pragma once
 #include <wx/event.h>
-#include "Line.h"
+#include "../Helper/Line.h"
 
 #ifdef __WXMSW__
 #include <wx/msw/msvcrt.h>      // redefines the new() operator 

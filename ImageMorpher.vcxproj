@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Event\DrawEvent.h" />
+    <ClInclude Include="Src\Helper\Line.h" />
+    <ClInclude Include="Src\Helper\Math.h" />
+    <ClInclude Include="Src\Image Drawing\ImagePanel.h" />
+    <ClInclude Include="Src\Main\ImageMorpherGUI.h" />
+    <ClInclude Include="Src\Morpher\MorpherFrame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Helper\Math.cpp" />
+    <ClCompile Include="Src\Image Drawing\ImagePanel.cpp" />
+    <ClCompile Include="Src\Main\ImageMorpherGUI.cpp" />
+    <ClCompile Include="Src\Main\Main.cpp" />
+    <ClCompile Include="Src\Morpher\MorpherFrame.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -146,24 +161,6 @@
       <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_x64_lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ImageMorpherGUI.cpp" />
-    <ClCompile Include="ImagePanel.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Math.cpp" />
-    <ClCompile Include="MorpherFrame.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DrawEvent.h" />
-    <ClInclude Include="Line.h" />
-    <ClInclude Include="ImageMorpherGUI.h" />
-    <ClInclude Include="ImagePanel.h" />
-    <ClInclude Include="Math.h" />
-    <ClInclude Include="MorpherFrame.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Image_created_with_a_mobile_phone.png" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
